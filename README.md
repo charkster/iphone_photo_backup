@@ -13,3 +13,6 @@ Notes:
 (3) This script is cool because it searches through all the folders in the iphone's DCIM directory. Any modified photos with a recent timestamp will be found.
 
 No Licence. Use at your own risk. Not liable for any damage to your iphone.
+
+Also, I would recommend the following setting to force you iphone to save photos as JPG and videos as MP4:
+Settings -> camera -> formats -> most compatible 
