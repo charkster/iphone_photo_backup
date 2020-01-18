@@ -2,7 +2,7 @@
 Bash script to backup photos/videos from iphone (using cable connection to USB port)
 
 This bash script has been tested on Ubuntu 18.04 (x86_64) and Raspbian (Sept 2019).
-Iphone must have use this setting to allow photos to be copied:
+Iphone must use the following setting to allow photos to be copied:
 Settings -> photos -> Transfer to MAC or PC -> keep originals 
 
 The script queries how many days worth of photos/videos you want to copy. The script then queries the directory to copy those files to. After the files are copied, they are renamed to have the photo date as a prefix to the new filename.
