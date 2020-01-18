@@ -14,5 +14,5 @@ Notes:
 
 No Licence. Use at your own risk. Not liable for any damage to your iphone.
 
-Also, I would recommend the following setting to force you iphone to save photos as JPG and videos as MP4:
+Also, I would recommend the following setting to force your iphone to save photos as JPG and videos as MP4:
 Settings -> camera -> formats -> most compatible 
