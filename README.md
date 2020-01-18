@@ -10,7 +10,8 @@ The script queries how many days worth of photos/videos you want to copy. The sc
 Notes:
 (1) I use "gcp" as the command to copy files. This is needed when copying the files to a samba server, to retain the timestamp. You can change this to "cp" if you do not have this issue.
 (2) This script relies on the iphone being connected as a gphoto2 device.
-(3) This script is cool because it searches through all the folders in the iphone's DCIM directory. Any modified photos with a recent timestamp will be found.
+(3) This script calls perl to perform the file renaming.
+(4) This script is cool because it searches through all the folders in the iphone's DCIM directory. Any modified photos with a recent timestamp will be found.
 
 No Licence. Use at your own risk. Not liable for any damage to your iphone.
 
