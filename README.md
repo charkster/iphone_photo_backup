@@ -1,7 +1,7 @@
 # iphone_photo_backup
 Bash script to backup photos/videos from iphone (using cable connection to USB port)
 
-This bash script has been tested on Ubuntu 18.04 (x86_64) and Raspbian (Sept 2019).
+This bash script has been tested on Ubuntu 20.04 (x86_64) and Raspbian (Jan 2021).
 Iphone must use the following setting to allow photos to be copied:
 Settings -> photos -> Transfer to MAC or PC -> keep originals 
 
@@ -9,9 +9,11 @@ The script queries how many days worth of photos/videos you want to copy. The sc
 
 Notes:
 
-(1) I use "gcp" as the command to copy files. This is needed when copying the files to a samba server, to retain the timestamp. You can change this to "cp" if you do not have this issue.
+(1) Before using ifuse to mount the iphone to the local ubuntu machine, create /media/iphone, chmod and chgrp to give the local user full permissions to the folder
 
-(2) This script relies on the iphone being connected as a gphoto2 device.
+(2) This script relies on the the following packages to be installed ( sudo apt install libimobiledevice6 libimobiledevice-utils ifuse gcp )
+
+(3) I use "gcp" as the command to copy files. This is needed when copying the files to a samba server, to retain the timestamp. You can change this to "cp -a" if you do not have this issue.
 
 (3) This script calls perl to perform the file renaming.
 
