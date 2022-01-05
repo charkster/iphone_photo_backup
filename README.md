@@ -1,11 +1,6 @@
 # iphone_photo_backup
 Bash script to backup photos/videos from iphone (using cable connection to USB port)
 
-Please install:  
-libimobiledevice-utils  
-gcp  
-ifuse  
-
 This bash script has been tested on Ubuntu 20.04 (x86_64) and Raspbian (Jan 2021).
 Iphone must use the following setting to allow photos to be copied:
 Settings -> photos -> Transfer to MAC or PC -> keep originals 
