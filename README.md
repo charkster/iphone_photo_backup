@@ -13,13 +13,16 @@ Notes:
 
 (2) This script relies on the the following packages to be installed ( sudo apt install libimobiledevice6 libimobiledevice-utils ifuse gcp )
 
-(3) I use "gcp" as the command to copy files. This is needed when copying the files to a samba server, to retain the timestamp. You can change this to "cp -a" if you do not have this issue.
-
-(3) This script calls perl to perform the file renaming.
-
-(4) This script is cool because it searches through all the folders in the iphone's DCIM directory. Any modified photos with a recent timestamp will be found.
 
 No Licence. Use at your own risk. Not liable for any damage to your iphone.
 
 Also, I would recommend the following setting to force your iphone to save photos as JPG and videos as MP4:
 Settings -> camera -> formats -> most compatible 
+
+---------------------------------------------------------------------
+NEW METHOD: 
+
+Use iphone Shortcuts app to make a script that copies and renames photos and videos to a samba share over wifi (which has already been setup in the Files app). This shortcut can be run on a schedule. and is much easier than my bash script that requires a cable connection to the iphone. I needed to create an empty Photo album called "ALREADY_BACKED-UP" so that only new files are copies (no overwriting).
+
+![screen_shot_1](https://github.com/charkster/iphone_photo_backup/blob/master/screen_capture/2022_03-14_18_24_45_IMG_6294.png)
+![screen_shot_1](https://github.com/charkster/iphone_photo_backup/blob/master/screen_capture/2022_03-14_18_26_54_IMG_6295.png)
