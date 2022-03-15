@@ -26,3 +26,8 @@ Use iphone Shortcuts app to make a script that copies and renames photos and vid
 
 ![screen_shot_1](https://github.com/charkster/iphone_photo_backup/blob/master/screen_capture/2022_03-14_18_24_45_IMG_6294.png)
 ![screen_shot_1](https://github.com/charkster/iphone_photo_backup/blob/master/screen_capture/2022_03-14_18_26_54_IMG_6295.png)
+---------------------------------------------------------------------
+Here are the expanded details of the file renaming step...
+
+
+![screen_shot_1](https://github.com/charkster/iphone_photo_backup/blob/master/screen_capture/2022_03-14_18_51_34_IMG_6296-2.png)
