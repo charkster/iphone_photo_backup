@@ -22,7 +22,7 @@ Settings -> camera -> formats -> most compatible
 ---------------------------------------------------------------------
 NEW METHOD: 
 
-Use iphone Shortcuts app to make a script that copies and renames photos and videos to a samba share over wifi (which has already been setup in the Files app). This shortcut can be run on a schedule. and is much easier than my bash script that requires a cable connection to the iphone. I needed to create an empty Photo album called "ALREADY_BACKED-UP" so that only new files are copies (no overwriting).
+Use iphone Shortcuts app to make a script that copies and renames photos and videos to a samba share over wifi (a share which has already been setup in the Files app). This shortcut can be run on a schedule. and is much easier than my bash script that requires a cable connection to the iphone. I needed to create an empty Photo album called "ALREADY_BACKED-UP" so that only new files are copies (no overwriting).
 
 ![screen_shot_1](https://github.com/charkster/iphone_photo_backup/blob/master/screen_capture/2022_03-14_18_24_45_IMG_6294.png)
 ![screen_shot_1](https://github.com/charkster/iphone_photo_backup/blob/master/screen_capture/2022_03-14_18_26_54_IMG_6295.png)
